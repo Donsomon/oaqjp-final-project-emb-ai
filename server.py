@@ -15,7 +15,7 @@ def sent_analyzer():
     dominant_emotion = response["dominant_emotion"]
 
     if dominant_emotion is None:
-        return "Invalid phrase! Please try another one."
+        return "Invalid text! Please try again!"
 
     return (
         f"For the given statement, the system response is 'anger': {anger}, "
